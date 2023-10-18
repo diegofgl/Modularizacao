@@ -1,0 +1,37 @@
+PODS:
+  - ChartFeature (1.0.0):
+    - ChartFeature/Release (= 1.0.0)
+    - Charts
+    - TinyConstraints
+  - ChartFeature/Release (1.0.0):
+    - Charts
+    - TinyConstraints
+  - Charts (4.1.0):
+    - Charts/Core (= 4.1.0)
+  - Charts/Core (4.1.0):
+    - SwiftAlgorithms (~> 1.0)
+  - SwiftAlgorithms (1.0.0)
+  - TinyConstraints (4.0.2)
+
+DEPENDENCIES:
+  - ChartFeature (from `../ChartFeature/`)
+
+SPEC REPOS:
+  trunk:
+    - Charts
+    - SwiftAlgorithms
+    - TinyConstraints
+
+EXTERNAL SOURCES:
+  ChartFeature:
+    :path: "../ChartFeature/"
+
+SPEC CHECKSUMS:
+  ChartFeature: 4dffb4d2922d9fbb8be241f39d91b02dd5b97766
+  Charts: ce0768268078eee0336f122c3c4ca248e4e204c5
+  SwiftAlgorithms: 38dda4731d19027fdeee1125f973111bf3386b53
+  TinyConstraints: 7b7ccc0c485bb3bb47082138ff28bc33cd49897f
+
+PODFILE CHECKSUM: 6910f3c838673d1879a4bd9c78ce733d889aac84
+
+COCOAPODS: 1.12.1
